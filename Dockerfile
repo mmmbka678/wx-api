@@ -29,7 +29,6 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tencent.com/g' /etc/apk/repositorie
     && apk add --update --no-cache openjdk8-jre-base \
     && rm -f /var/cache/apk/*
 
-EXPOSE 80
 
 # 指定运行时的工作目录
 WORKDIR /app

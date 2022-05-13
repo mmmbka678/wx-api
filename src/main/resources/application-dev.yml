@@ -1,9 +1,9 @@
 spring:
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://sh-cynosdbmysql-grp-52kk62fu.sql.tencentcdb.com:21582/wx?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        url: jdbc:mysql://nas.ymxlass.com:53306/wx?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
         username: root
-        password: 7wC8KfEF
+        password: MMM110406
 
 springfox:
     documentation:
